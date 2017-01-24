@@ -59,19 +59,19 @@
 
     <TextView
         android:id="@+id/center_text"
-        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:background="#9f29ce"
         android:text="정중앙"
         android:textSize="30sp" />
 
     <TextView
-        android:layout_centerInParent="true"
-        android:layout_below="@id/center_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#9f29ce"
+        android:layout_below="@id/center_text"
+        android:layout_centerInParent="true"
+        android:background="#faedff"
         android:text="아래"
         android:textSize="30sp" />
 
