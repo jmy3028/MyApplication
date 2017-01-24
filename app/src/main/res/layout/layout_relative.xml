@@ -22,6 +22,7 @@
         android:textSize="33sp" />
 
     <TextView
+        android:id="@+id/top_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -29,12 +30,49 @@
         android:text="수원스마트앱개발학원"
         android:textSize="24sp" />
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_above="@id/top_text"
+        android:background="#898ed5f1"
+        android:text="위쪽"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#fff4b7"
         android:text="정민영"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/right_text"
+        android:background="#ffb7e8"
+        android:text="오른쪽"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/center_text"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9f29ce"
+        android:text="정중앙"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_below="@id/center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9f29ce"
+        android:text="아래"
         android:textSize="30sp" />
 
 </RelativeLayout>
