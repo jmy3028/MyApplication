@@ -25,11 +25,11 @@
                 android:textSize="23dp" />
 
             <TextView
-                android:layout_marginBottom="70dp"
                 android:id="@+id/num_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginBottom="70dp"
                 android:text="0"
                 android:textSize="50dp" />
 
@@ -56,6 +56,12 @@
 
         </LinearLayout>
 
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="30dp"
+            android:background="#000000" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -72,11 +78,11 @@
                 android:textSize="23dp" />
 
             <TextView
-                android:layout_marginBottom="70dp"
                 android:id="@+id/bnum_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginBottom="70dp"
                 android:text="0"
                 android:textSize="50dp" />
 
@@ -106,12 +112,12 @@
 
     <Button
         android:id="@+id/reset_view"
-        android:text="reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:text="reset" />
 
 
 </LinearLayout>

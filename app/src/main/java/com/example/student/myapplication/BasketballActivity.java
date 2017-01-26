@@ -64,7 +64,7 @@ public class BasketballActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mbTotalScore = mbTotalScore + 3;
-                mbScore.setText("" + mTotalScore);
+                mbScore.setText("" + mbTotalScore);
             }
         });
 
@@ -72,7 +72,7 @@ public class BasketballActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mbTotalScore = mbTotalScore + 2;
-                mbScore.setText("" + mTotalScore);
+                mbScore.setText("" + mbTotalScore);
             }
         });
 
@@ -80,7 +80,7 @@ public class BasketballActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mbTotalScore = mbTotalScore + 1;
-                mbScore.setText("" + mTotalScore);
+                mbScore.setText("" + mbTotalScore);
             }
         });
 
