@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MemoExam">
 
 
-    <item android:title="설정"
-        android:id="@+id/action_setting"
-        app:showAsAction="always"
-        android:icon="@mipmap/ic_launcher" />
-    <item android:title="Item2"
-        android:id="@+id/action_Item2" />
-    <item android:title="Item3"
-        android:id="@+id/action_Item3" />
+    <item
+        android:id="@+id/confirm_setting"
+        android:title="확인"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/cancel_setting"
+        android:title="취소"
+        app:showAsAction="always" />
+
 </menu>
