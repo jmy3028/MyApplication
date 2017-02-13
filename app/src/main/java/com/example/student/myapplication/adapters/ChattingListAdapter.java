@@ -1,6 +1,5 @@
 package com.example.student.myapplication.adapters;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -38,7 +37,7 @@ public class ChattingListAdapter extends BaseAdapter {
         if(convertView == null){
 
         }
-
+        return null;
     }
 
     private static class ViewHolder {
