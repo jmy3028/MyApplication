@@ -15,7 +15,7 @@ public class FragmentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment);
 
-    }
+}
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.first_fragment:

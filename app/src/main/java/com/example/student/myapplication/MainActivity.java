@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         // 데이터
         mDataList = new ArrayList<>();
         addItem("플래그먼트", "Fragment 연습", FragmentActivity.class);
+        addItem("Fragment연습", "Taplayout 연습", ViewPageActivity.class);
 
         // 어댑터
 //        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
